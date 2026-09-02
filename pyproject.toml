@@ -1,0 +1,24 @@
+[project]
+name = "mini-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Vinay Kumar", email = "cr.vinay8448@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "groq>=1.7.0",
+    "pathlib>=1.0.1",
+    "pydantic>=2.13.5",
+    "pypdf>=6.16.2",
+    "python-docx>=1.2.0",
+]
+
+[project.scripts]
+mini-project = "mini_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

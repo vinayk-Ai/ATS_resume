@@ -18,3 +18,9 @@ then LLM provide the score and short concise reason .
 part 5:
 then, we sort the candidate according to score and show top candidates.
 You can also see the worst candidates according to your need.
+
+Using technquies and technology :
+
+I use the LLM to do the intellectual task.
+and also use pydantic to structure the job description and resume information.
+some general libraries are - os , pathlib, time, Groq, pydantic , pypdf, docx and dotenv.

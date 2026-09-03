@@ -32,10 +32,13 @@ uv init-ATS
 cd ATS
 
 #create virtual environment 
+
 uv venv
 
 #the activate
+
 source .venv/bin/activate
+
 uv run ats.py
 
 

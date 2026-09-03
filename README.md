@@ -24,3 +24,18 @@ Using technquies and technology :
 I use the LLM to do the intellectual task.
 and also use pydantic to structure the job description and resume information.
 some general libraries are - os , pathlib, time, Groq, pydantic , pypdf, docx and dotenv.
+
+if you want to run the ats
+first you use the uv to create necessary folder.
+
+uv init-ATS
+cd ATS
+
+#create virtual environment 
+uv venv
+
+#the activate
+source .venv/bin/activate
+uv run ats.py
+
+
